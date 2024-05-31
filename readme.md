@@ -1,4 +1,4 @@
-# Raydium Trading API ```raydium-python```
+# Raydium Trading API ```raydium_python```
 
 This project provides a set of functions for interacting with Raydium, a decentralized exchange on the Solana blockchain. It includes functionalities to retrieve pool keys, execute buy and sell swaps, and check token balances.
 
@@ -16,8 +16,8 @@ Ethereum Address: 0x31e02bFB7a76a6BE128B6191335cDE818174c08a
 
 1. Clone the repository:
     ```bash
-    git clone https://github.com/sumitgautam0101/raydium-python.git
-    cd raydium-python
+    git clone https://github.com/sumitgautam0101/raydium_python.git
+    cd raydium_python
     ```
 
 2. Install the required Python packages:
