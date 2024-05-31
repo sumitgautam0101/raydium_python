@@ -36,13 +36,11 @@ Ethereum Address: 0x31e02bFB7a76a6BE128B6191335cDE818174c08a
 ## Methods Available
 
 ```token_balance``` : Fetches the token balance of the wallet for the specified token.
-Parameters:
 
 * token (str, optional): The public key of the token to check the balance for. Default is WSOL.
 
 
 ```verify_txn``` : Verifies the status of a transaction on the Solana blockchain.
-Parameters:
 
 * signature (str): The signature of the transaction to verify.
 
@@ -50,7 +48,6 @@ Parameters:
 
 
 ```transfer_tokens``` : Transfers a specified amount of tokens to another wallet.
-Parameters:
 
 * token (str): The public key of the token to transfer.
 * receiver_wallet (str): The public key of the receiver's wallet.
@@ -58,13 +55,11 @@ Parameters:
 
 
 ```get_pool_data``` : Retrieves the pool keys and data for a specific AMM.
-Parameters:
 
 * amm_id (str): The public key of the Automated Market Maker (AMM) to get pool data from.
 
 
 ```buy_swap``` : Executes a buy swap transaction on the specified AMM.
-Parameters:
 
 * amm_id (str): The public key of the AMM to interact with.
 * amount (float): The amount of tokens to swap.
@@ -72,7 +67,6 @@ Parameters:
 
 
 ```sell_swap``` : Executes a sell swap transaction on the specified AMM.
-Parameters:
 
 * amm_id (str): The public key of the AMM to interact with.
 * amount (float): The amount of tokens to swap.
@@ -80,7 +74,6 @@ Parameters:
 
 
 ```sell_swap_percent``` : Executes a sell swap transaction using a specified percentage of the wallet's total token balance.
-Parameters:
 
 * amm_id (str): The public key of the AMM to interact with.
 * percent (float): The percentage of the wallet's total balance to swap.
