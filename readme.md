@@ -2,16 +2,6 @@
 
 This project provides a set of functions for interacting with Raydium, a decentralized exchange on the Solana blockchain. It includes functionalities to retrieve pool keys, execute buy and sell swaps, and check token balances.
 
-# Donations
-If you find this project helpful and would like to support its development, you can make a donation. Donations help keep the project running and motivate the contributors to add new features.
-
-```
-BSC Address: 0x60f99B659f34a2e9f4a085bB9a2aDB62Dbf0064E
-Solana Address: 4ugq7zXaJZHL47HD8gZ65pGcwbzLZhvzcRQKnA5Nikwc
-Ethereum Address: 0x31e02bFB7a76a6BE128B6191335cDE818174c08a
-```
-
-
 ## Installation
 
 1. Clone the repository:
